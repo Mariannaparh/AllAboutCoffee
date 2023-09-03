@@ -1,0 +1,40 @@
+.choose {
+  display: flex;
+  min-height: 600px;
+  display: flex;
+  padding: 50px 45px 0 45px;
+  background: url("../img/bg/question.bg.png") center center / cover no-repeat;
+  color: #fff;
+  font-size: 25px;
+  &_header {
+    display: flex;
+    padding-left: 240px;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 55px;
+    padding-bottom: 50px;
+    color: #fff;
+    font-family: "Comforter", serif;
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  &_item {
+    form {
+      margin-left: 600px;
+      line-height: 50px;
+      color: #fff;
+      font-weight: 300;
+      font-size: 30px;
+    }
+  }
+  button {
+    font-size: 20px;
+    padding: 5px 30px 5px 30px;
+    margin-top: 50px;
+    margin-left: 600px;
+    background-color: $main-color;
+    color: #fff;
+    border-radius: 10%;
+  }
+}

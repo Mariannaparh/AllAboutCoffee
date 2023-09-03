@@ -1,0 +1,43 @@
+.coffee {
+  min-height: 750px;
+  background-color: $second-color;
+  &_header {
+    font-family: "Comforter", serif;
+    display: block;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 65px;
+    color: #111;
+    font-size: 90px;
+    font-style: oblique;
+  }
+  &_list {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 100px auto 150px;
+    padding: 0 90px 0 20px;
+    font-style: italic;
+    list-style-type: circle;
+  }
+  &_gallery {
+    display: flex;
+    margin: 150px auto;
+    justify-content: space-between;
+    img {
+      border-radius: 60%;
+    }
+  }
+  &_descr {
+    margin: 0 40px 0 40px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 100px;
+    padding: 0 0 90px 0;
+    font-size: 25px;
+    a {
+      color: $main-color;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+  }
+}

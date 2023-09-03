@@ -1,0 +1,68 @@
+@import "base/variables";
+@import "base/mixins";
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.divider {
+  width: 217px;
+  height: 4px;
+  background-color: #6d8f61;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Comforter", serif;
+  display: block;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 35px;
+  color: #fff;
+  font-size: 90px;
+  font-style: oblique;
+}
+
+nav {
+  position: relative;
+  font-weight: 300;
+  font-size: 20px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+  }
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  a:hover {
+    background-color: $main-color;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@import "blocks/about";
+@import "blocks/coffee";
+@import "blocks/carousel";
+@import "blocks/choose";
+@import "blocks/footer";
+@import "blocks/media";

@@ -1,0 +1,243 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 950px;
+    } 
+    .about {
+        &_list {
+            margin: 0 auto;
+            padding: 10px 0 100px 160p
+        }
+    }
+    .carousel {
+        &_wrapper {
+            padding: 100px 0 100px 0;
+            &_item {
+                margin: 0 5px;
+            }
+        }
+    }
+    .choose {
+        &_header {
+            font-size: 45px;
+        }
+    }
+    .coffee {
+        &_gallery {
+            img {
+                width: 50%;
+                padding: 0 15px 0 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .about {
+        &_ask {
+            font-size: 21px;
+        }
+        &_answer {
+            font-size: 35px;
+        }
+        &_subheader {
+            font-size: 25px;
+        }
+        &_list {
+            margin: 0 auto;
+            padding: 10px 0 100px 190px;
+        }
+    }
+    .carousel {
+        &_wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_item {
+                padding-bottom: 45px;
+            }
+        }
+    }
+    .choose {
+        &_header {
+            padding: 0 0 40px 0;
+            font-size: 31px;
+        }
+        form {
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        &_item {
+            display: flex;
+            align-items: center;
+        }
+        button {
+            margin: 70px auto 0 auto;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .coffee {
+        h1 {
+            font-size: 60px;
+        }
+        &_list {
+            font-size: 25px;
+            padding: 0 0 0 45px;
+        }
+        &_gallery {
+            img {
+                width: 50%;
+                padding: 0 15px 0 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .about {
+        &_ask {
+            font-size: 21px;
+        }
+        &_answer {
+            font-size: 35px;
+        }
+        &_subheader {
+            font-size: 25px;
+        }
+        &_list {
+            margin: 0 auto;
+            padding: 10px 0 100px 190px;
+        }
+    }
+    .carousel {
+        &_wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_item {
+                padding-bottom: 45px;
+            }
+        }
+    }
+    .choose {
+        &_header {
+            padding: 0 0 40px 0;
+            font-size: 31px;
+        }
+        form {
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        &_item {
+            display: flex;
+            align-items: center;
+        }
+        button {
+            margin: 70px auto 0 auto;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .coffee {
+        h1 {
+            font-size: 60px;
+        }
+        &_list {
+            font-size: 25px;
+            padding: 0 0 0 45px;
+        }
+        &_gallery {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 100%;
+                padding: 45px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .about {
+        &_ask {
+            font-size: 21px;
+        }
+        &_answer {
+            font-size: 35px;
+        }
+        &_subheader {
+            font-size: 25px;
+        }
+        &_list {
+            margin: 0 auto;
+            padding: 10px 0 100px 190px;
+        }
+    }
+    .carousel {
+        &_wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_item {
+                padding-bottom: 45px;
+            }
+        }
+    }
+    .choose {
+        &_header {
+            padding: 0 0 40px 0;
+            font-size: 31px;
+        }
+        form {
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        &_item {
+            display: flex;
+            align-items: center;
+        }
+        button {
+            margin: 70px auto 0 auto;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .coffee {
+        h1 {
+            font-size: 60px;
+        }
+        &_list {
+            font-size: 25px;
+            padding: 0 0 0 45px;
+        }
+        &_gallery {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 100%;
+                padding: 45px;
+            }
+        }
+    }
+}

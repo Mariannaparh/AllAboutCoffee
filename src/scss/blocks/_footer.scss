@@ -1,0 +1,26 @@
+.footer {
+  padding: 14px 23px 39px 23px;
+  &_wrapper {
+    display: flex;
+    min-height: 125px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 72px;
+    background-color: #111;
+    padding-left: 30px;
+    i {
+      color: #fff;
+    }
+    &_social {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &_rights {
+    font-family: "Comforter", serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 50px 0 0;
+  }
+}

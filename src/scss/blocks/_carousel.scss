@@ -1,0 +1,36 @@
+.carousel {
+  min-height: 580px;
+  background-color: $second-color;
+  padding: 100px 0 100px 0;
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    &_item {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 15px;
+      width: 339px;
+      text-align: center;
+      img {
+        height: 300px;
+        border-radius: 60%;
+      }
+        &:hover {
+          filter: brightness(70%);
+        }
+    }
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 33px;
+      color: #4a4a4a;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 21px;
+      font-family: "Comforter", serif;
+      font-style: italic;
+    }
+  }
+}
