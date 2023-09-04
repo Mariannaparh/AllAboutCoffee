@@ -16,8 +16,7 @@
     url('Roboto-Black.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
-    }
-
+}
 @font-face {
     font-family: 'Comforter';
     src: local('Comforter Regular'), local('Comforter-Regular'),
@@ -26,4 +25,5 @@
         url('Comforter-Regular.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-  }
+}
+
