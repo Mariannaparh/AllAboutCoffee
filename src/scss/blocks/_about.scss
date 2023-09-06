@@ -1,4 +1,4 @@
-.about_coffee {
+.about {
   min-height: 920px;
   background: url('../img/bg/coffee-beans.png') center (center/cover) no-repeat;
   &_header {
@@ -33,7 +33,7 @@
     font-size: 28px;
     color: #fff;
     align-items: center;
-    justify-content: center 
+    justify-content: center;
   }
   &_answer {
     font-family: "Comforter", serif;
